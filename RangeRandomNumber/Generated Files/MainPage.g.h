@@ -7,6 +7,15 @@
 //------------------------------------------------------------------------------
 
 
+namespace Windows {
+    namespace UI {
+        namespace Xaml {
+            namespace Controls {
+                ref class RelativePanel;
+            }
+        }
+    }
+}
 
 namespace RangeRandomNumber
 {
@@ -28,6 +37,7 @@ namespace RangeRandomNumber
         bool _contentLoaded;
     
     
+        private: ::Windows::UI::Xaml::Controls::RelativePanel^ BackgroundPanel;
     };
 }
 

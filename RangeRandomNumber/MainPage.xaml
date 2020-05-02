@@ -9,6 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <RelativePanel Name="BackgroundPanel">
+            <Button RelativePanel.AlignBottomWithPanel="True"
+                    Width="{Binding ElementName=BackgroundPanel, Path=ActualWidth}"
+                    Content="GetAllRandom"
+                    Background="Green"/>
+        </RelativePanel>
     </Grid>
 </Page>

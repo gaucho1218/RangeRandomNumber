@@ -28,8 +28,14 @@ void ::RangeRandomNumber::MainPage::InitializeComponent()
 
 void ::RangeRandomNumber::MainPage::Connect(int __connectionId, ::Platform::Object^ __target)
 {
-    __connectionId;         // unreferenced 
-    __target;               // unreferenced
+    switch (__connectionId)
+    {
+    case 1:
+        {
+            this->BackgroundPanel = safe_cast<::Windows::UI::Xaml::Controls::RelativePanel^>(__target);
+        }
+        break;
+    }
     _contentLoaded = true;
 }
 
