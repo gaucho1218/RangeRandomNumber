@@ -8,6 +8,12 @@
       <UniqueIdentifier>d9cc899a-be81-41d8-b147-3879ea19390c</UniqueIdentifier>
       <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
     </Filter>
+    <Filter Include="Strings">
+      <UniqueIdentifier>{836d2365-b5c9-4ab9-a1c6-5eb4b880ef60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Strings\en-US">
+      <UniqueIdentifier>{74f1ee86-82b1-4afb-b70e-1d8d3509a82a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml" />
@@ -53,5 +59,10 @@
   </ItemGroup>
   <ItemGroup>
     <Page Include="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Strings\en-US\Resource.resw">
+      <Filter>Strings\en-US</Filter>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

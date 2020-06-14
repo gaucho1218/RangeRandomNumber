@@ -11,8 +11,9 @@
     <Grid>
         <RelativePanel Name="BackgroundPanel">
             <Button RelativePanel.AlignBottomWithPanel="True"
+                    x:Uid="AllRandomButton"
                     Width="{Binding ElementName=BackgroundPanel, Path=ActualWidth}"
-                    Content="GetAllRandom"
+                    Content=""
                     Background="Green"/>
         </RelativePanel>
     </Grid>
