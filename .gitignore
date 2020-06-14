@@ -3,3 +3,5 @@ Debug
 x64
 Generated Files
 .vs
+bin
+obj
